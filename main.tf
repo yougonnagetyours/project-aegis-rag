@@ -17,7 +17,7 @@ provider "aws" {
 # S3 bucket to store source documents for the RAG knowledge base.
 
 resource "aws_s3_bucket" "rag_documents_poc_bucket" {
-  bucket = "aegis-poc-rag-documents-jk"
+  bucket = "aegis-rag-poc-documents-mp"
 
   # Tags for cost allocation, automation, and resource identification
   tags = {
